@@ -1,0 +1,79 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.accessibilitySupport": "off",
+  "vscode-edge-devtools.webhint": false,
+  "files.autoSave": "afterDelay",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "stash-apply:command"
+  ],
+  "cmake.showOptionsMovedNotification": false,
+  "editor.defaultFormatter": "GitHub.copilot",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.formatOnType": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "git.autofetch": true,
+  "eslint.format.enable": true,
+  "explorer.excludeGitIgnore": true,
+  "dev.containers.gitCredentialHelperConfigLocation": "system",
+  "emulator.emulatorPath": " ~/Library/Android/Sdk/emulator",
+  "emulator.simulatorPath": "C:\\Users\\mamba\\AppData\\Local\\Android\\Sdk\\emulator\\emulator.exe",
+  "cmake.configureOnOpen": true,
+  "editor.minimap.size": "fit",
+  "emulator.emulatorPathLinux": " ~/Android/Sdk/emulator",
+  "emulator.emulatorPathMac": " ~/Library/Android/Sdk/emulator",
+  "emulator.emulatorPathWindows": "C:\\\\Users\\\\mamba\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\emulator",
+  "emulator.androidColdBoot": true,
+  "gradle.allowParallelRun": true,
+  "gradle.showStoppedDaemons": true,
+  "java.import.gradle.version": "C:\\Program Files\\gradle-8.7",
+  "java.import.gradle.home": "C:\\Program Files\\gradle-8.7",
+  "java.import.gradle.user.home": "C:\\Program Files\\gradle-8.7",
+  "org.gradle.daemon": true,
+  "java.import.gradle.offline.enabled": true,
+  "java.project.outputPath": ""
+}
