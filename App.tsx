@@ -7,11 +7,11 @@
 
 import React from 'react';
 import { Text } from "react-native";
+
+import Cat from "./components/name";
 const App = () => {
   return (
-    <Text>
-      Hello, I am your Cat
-    </Text>
+    <Cat />
   );
 }
 export default App;
