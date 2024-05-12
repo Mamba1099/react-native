@@ -6,7 +6,8 @@
  */
 
 import React from 'react';
-import { Text } from "react-native";
+
+
 
 import Cat from "./components/name";
 const App = () => {
